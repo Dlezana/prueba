@@ -54,7 +54,15 @@ body {
     text-decoration: underline;
 }
 
-.form-subscribe .buttons {
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: greenyellow;
+    padding-top: 20px;
+}
+
+.form-subscribe button {
     width: 100%;
     background: pink;
     border: none;

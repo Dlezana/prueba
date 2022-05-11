@@ -12,24 +12,51 @@
 <body>
     <!-- section para englobar todo-->
     <section class="form-subscribe">
-        <h4>¡Suscríbete ahora!</h4>
-        <!-- Recuadros para los datos-->
-        <input class="controls" type="text" name="nombres" id="Nombres" placeholder="Ingrese su Nombre">
-        <input class="controls" type="text" name="apellidos" id="Apellidos" placeholder="Ingrese su Apellido">
-        <input class="controls" type="text" name="correo" id="Correo" placeholder="Ingrese su Correo">
-        <input class="controls" type="text" name="direccion" id="Dirección" placeholder="Ingrese su Dirección">
-        <input class="controls" type="text" name="contraseña" id="Contraseña" placeholder="Ingrese su Contraseña">
-        <!-- Los enlaces para los terminos y condiciones-->
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-            Estoy de acuerdo con <a href="#">Términos y Condiciones</a>
-            </label>
-          </div>
-        <input class="buttons" type="submit" value="Suscribirse">
-        <!-- Enlace para revisar si ya se posee una suscripcion-->
-        <p><a href="Login.html">¿Ya tiene una Suscripción?</a></p>
+        <form action="" method="post" id="form">
+            <h4>¡Suscríbete ahora!</h4>
+            <!-- Recuadros para los datos-->
+            <div class="grupo">
+                <label for="">Nombre</label>
+                <input class="controls" type="text" name="" id="name" placeholder="Ingrese su Nombre">
+            </div>
+            <div class="grupo">
+                <label for="">Apellido</label>
+                <input class="controls" type="text" name="" id="apellido" placeholder="Ingrese su Apellido">
+            </div>
+            <div class="grupo">
+                <label for="">Ingrese su correo</label>
+                <input class="controls" type="email" name="" id="email" placeholder="Ingrese su Correo">
+            </div>
+            <div class="grupo">
+                <label for="">Ingrese su dirección</label>
+                <input class="controls" type="text" name="" id="dirreccion" placeholder="Ingrese su Dirección">
+            </div>
+            <div class="grupo">
+                <label for="">Ingrese su contraseña</label>
+                <input class="controls" type="password" name="" id="password" placeholder="Ingrese su Contraseña">
+            </div>
+            <!-- Los enlaces para los terminos y condiciones-->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Estoy de acuerdo con <a href="#">Términos y Condiciones</a>
+                </label>
+            </div>
+            <button type="submit">Suscribirse</button>
+            <!-- Enlace para revisar si ya se posee una suscripcion-->
+            <p><a href="Login.html">¿Ya tiene una Suscripción?</a></p>
+        </form>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

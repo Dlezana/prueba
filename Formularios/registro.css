@@ -48,7 +48,15 @@ body {
     font-weight: bold;
 }
 
-.boton {
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: violet;
+    padding-top: 20px;
+}
+
+button {
     width: 100%;
     height: 40px;
     background: darkmagenta;
